@@ -1,14 +1,18 @@
 
 
+
 body {background-color: black;}
 
 *{
-    color: blueviolet;
+    color: rgb(226, 43, 43);
+    text-align: center;
 }
 
 .parrafo {
-     color: olivedrab;
-     width: 300px;
+     color: #00f7ff;
+     width: 500px;
+  
+    
 }
 
 /**Aplicando lo aprendido del curso*/
@@ -32,9 +36,9 @@ body {background-color: black;}
 
 .historia{
   border: 1px solid black;
-    padding: 5px;
-    margin: 30px;
-    margin-top: 40px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 15px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 20px;
@@ -42,22 +46,36 @@ body {background-color: black;}
 }
 
 section {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+  
+    width: 1000px;
+    border: 20px solid green;
+    padding: 100px;
+    margin: 50px;
   }
   
 section h3 {
 
-  color: blueviolet;
+  color: rgb(226, 153, 43);
 
 }
 
+
   #titulo{
-    color: blueviolet;
+    color: rgb(226, 43, 128);
     font-size: 20px;
     border: 3px solid orangered
   }
 
   
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 20px;
+  background-color: rgb(250, 215, 227);
+}
